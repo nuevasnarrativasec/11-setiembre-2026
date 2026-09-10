@@ -217,3 +217,19 @@
         else if (e.key === '-') zoom(-0.5);
     });
 })();
+
+/* ============ EVITAR DESCARGA FÁCIL DE IMÁGENES ============ */
+(function () {
+    // Bloquea clic derecho sobre las imágenes de la edición (lightbox y carrusel)
+    document.addEventListener('contextmenu', function (e) {
+        if (e.target.closest('.lightbox__img, .carrusel__item')) {
+            e.preventDefault();
+        }
+    });
+    // Evita el arrastre de la imagen del lightbox
+    document.addEventListener('dragstart', function (e) {
+        if (e.target.closest('.lightbox__img, .carrusel__item')) {
+            e.preventDefault();
+        }
+    });
+})();
