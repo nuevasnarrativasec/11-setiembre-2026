@@ -97,7 +97,7 @@ img {
     line-height: 0.78;
     letter-spacing: 4px;
     margin-top: clamp(60px, 16vw, 150px);
-    background: linear-gradient(180deg, #1aa3e0 0%, #0b66c3 55%, #063a6e 100%);
+    background: #000;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
