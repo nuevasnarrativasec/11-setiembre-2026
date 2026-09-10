@@ -97,11 +97,7 @@ img {
     line-height: 0.78;
     letter-spacing: 4px;
     margin-top: clamp(60px, 16vw, 150px);
-    background: #000;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: var(--azul-osc);
+    color: #000;
     text-shadow: 0 6px 24px rgba(6, 58, 110, 0.15);
 }
 
